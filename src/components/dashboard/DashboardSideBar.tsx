@@ -9,9 +9,8 @@ import {
   Keys as KeysIcon,
   Home as HomeIcon,
   Plot as PlotIcon,
-  Pool as PoolIcon,
-} from '@chia/icons';
-import { Flex, SideBarItem } from '@chia/core';
+} from '@mint/icons';
+import { Flex, SideBarItem } from '@mint/core';
 import { logOut } from '../../modules/message';
 
 const StyledRoot = styled(Flex)`
@@ -54,11 +53,11 @@ export default function DashboardSideBar() {
           icon={<FarmIcon fontSize="large" />}
           title={<Trans>Farm</Trans>}
         />
-        <SideBarItem
+        {/* <SideBarItem
           to="/dashboard/pool"
           icon={<PoolIcon fontSize="large" />}
           title={<Trans>Pool</Trans>}
-        />
+        /> */}
         <SideBarItem
           to="/"
           icon={<KeysIcon fontSize="large" />}

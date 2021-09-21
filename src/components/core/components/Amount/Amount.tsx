@@ -9,7 +9,7 @@ import {
 } from '@material-ui/core';
 import { useWatch, useFormContext } from 'react-hook-form';
 import TextField, { TextFieldProps } from '../TextField';
-import { chia_to_mojo } from '../../../../util/chia';
+import { mint_to_mojo } from '../../../../util/mint';
 import useCurrencyCode from '../../../../hooks/useCurrencyCode';
 import FormatLargeNumber from '../FormatLargeNumber';
 import Flex from '../Flex';
@@ -54,7 +54,7 @@ export default function Amount(props: AmountProps) {
     name,
   });
 
-  const mojo = chia_to_mojo(value);
+  const mojo = mint_to_mojo(value);
 
   return (
     <FormControl variant={variant} fullWidth={fullWidth}>
@@ -71,18 +71,14 @@ export default function Amount(props: AmountProps) {
         }}
         {...rest}
       />
-      
+      {!!mojo && (
         <FormHelperText>
           <Flex alignItems="center" gap={2}>
             <Flex flexGrow={1} gap={1}>
-              {!!mojo && (
-                <>
-                  <FormatLargeNumber value={mojo} />
-                  <Box>
-                    <Plural value={mojo} one="mojo" other="mojos" />
-                  </Box>
-                </>
-              )}
+              <FormatLargeNumber value={mojo} />
+              <Box>
+                <Plural value={mojo} one="mojo" other="mojos" />
+              </Box>
             </Flex>
             {children &&
               children({
@@ -91,6 +87,7 @@ export default function Amount(props: AmountProps) {
               })}
           </Flex>
         </FormHelperText>
+      )}
     </FormControl>
   );
 }

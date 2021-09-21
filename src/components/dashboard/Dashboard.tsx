@@ -8,7 +8,7 @@ import {
   Flex,
   Logo,
   ToolbarSpacing,
-} from '@chia/core';
+} from '@mint/core';
 import { defaultLocale, locales } from '../../config/locales';
 import Wallets from '../wallet/Wallets';
 import FullNode from '../fullNode/FullNode';
@@ -87,7 +87,7 @@ export default function Dashboard() {
           <Route path={`${path}/block/:headerHash`} exact>
             <Block />
           </Route>
-          <Route path={`${path}/wallets/:walletId?`}>
+          <Route path={`${path}/wallets`}>
             <Wallets />
           </Route>
           <Route path={`${path}/plot`}>

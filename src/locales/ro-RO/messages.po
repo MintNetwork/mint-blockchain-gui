@@ -6,16 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: ro_RO\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: mint-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-07-26 15:12\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: mint-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: ro\n"
-"X-Crowdin-File: /[Chia-Network.chia-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[MintNetwork.mint-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62
@@ -23,14 +23,14 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "Vrei să explorezi blocurile Chia mai mult? Verifică <0>Chia Explorer</0> construit de către un dezvoltator open-source."
+msgid "*Want to explore Mint’s blocks further? Check out <0>Mint Explorer</0> built by an open source developer."
+msgstr "Vrei să explorezi blocurile Mint mai mult? Verifică <0>Mint Explorer</0> construit de către un dezvoltator open-source."
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
 msgstr ""
 
-#: src/components/wallet/Wallets.tsx:132
+#: src/components/wallet/Wallets.tsx:122
 msgid "+ Add Wallet"
 msgstr ""
 
@@ -48,8 +48,8 @@ msgstr "Un 'cultivator' este un serviciu care rulează pe o mașină care dețin
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Blockchain"
-msgstr "Despre blockchain-ul Chia"
+msgid "About Mint Blockchain"
+msgstr "Despre blockchain-ul Mint"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -75,11 +75,6 @@ msgstr "Acțiuni"
 #: src/components/trading/CreateOffer.jsx:201
 msgid "Add"
 msgstr "Adaugă"
-
-#: src/components/wallet/did/WalletDID.tsx:874
-#: src/components/wallet/did/WalletDIDCreate.tsx:205
-msgid "Add Backup ID"
-msgstr ""
 
 #: src/components/plot/PlotHeader.tsx:91
 msgid "Add Plot Directory"
@@ -129,7 +124,7 @@ msgstr "Adresă"
 msgid "Address / Puzzle hash"
 msgstr "Adresă / Hash enigmă"
 
-#: src/components/core/components/Amount/Amount.tsx:99
+#: src/components/core/components/Amount/Amount.tsx:96
 #: src/components/trading/CreateOffer.jsx:196
 #: src/components/trading/TradesTable.tsx:20
 #: src/components/wallet/WalletHistory.tsx:62
@@ -146,10 +141,6 @@ msgstr "Sumă ({cc_unit})"
 #: src/components/wallet/create/createRLAdmin.jsx:239
 msgid "Amount For Initial Coin"
 msgstr "Suma pentru moneda inițială"
-
-#: src/components/wallet/did/WalletDIDCreate.tsx:62
-msgid "Amount must be an even amount."
-msgstr ""
 
 #: src/components/plot/PlotAction.tsx:30
 #: src/components/plot/queue/PlotQueueActions.tsx:46
@@ -187,17 +178,16 @@ msgstr ""
 msgid "Back"
 msgstr "Înapoi"
 
-#: src/components/backup/BackupCreate.tsx:45
+#: src/components/backup/BackupCreate.tsx:66
 msgid "Backup file is used to restore smart wallets."
 msgstr "Fișierul backup este utilizat pentru restaurarea portofelelor inteligente."
 
 #: src/components/wallet/coloured/WalletColoured.tsx:377
-#: src/components/wallet/did/WalletDID.tsx:647
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:541
 msgid "Balance"
 msgstr "Sold"
 
-#: src/components/block/Block.jsx:318
+#: src/components/block/Block.jsx:317
 msgid "Base Farmer Reward Amount"
 msgstr "Recompensa de bază pentru Fermier"
 
@@ -214,34 +204,34 @@ msgstr ""
 #~ msgid "Best estimate over last 5 hours"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:130
-#: src/components/block/Block.jsx:154
-#: src/components/block/Block.jsx:158
-#: src/components/block/Block.jsx:333
+#: src/components/block/Block.jsx:129
+#: src/components/block/Block.jsx:153
+#: src/components/block/Block.jsx:157
+#: src/components/block/Block.jsx:332
 msgid "Block"
 msgstr "Bloc"
 
-#: src/components/block/Block.jsx:138
+#: src/components/block/Block.jsx:137
 msgid "Block Test"
 msgstr "Bloc Test"
 
-#: src/components/block/Block.jsx:236
+#: src/components/block/Block.jsx:235
 msgid "Block VDF Iterations"
 msgstr "Iterațiile VDF pentru bloc"
 
-#: src/components/block/Block.jsx:337
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Bloc la înălțimea {0} în blockchainul Chia"
+#: src/components/block/Block.jsx:336
+msgid "Block at height {0} in the Mint blockchain"
+msgstr "Bloc la înălțimea {0} în blockchainul Mint"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:142
+#: src/components/block/Block.jsx:141
 msgid "Block with hash {headerHash}"
 msgstr "Bloc cu hash {headerHash}"
 
-#: src/components/block/Block.jsx:163
+#: src/components/block/Block.jsx:162
 msgid "Block with hash {headerHash} does not exist."
 msgstr "Blocul cu hashul {headerHash} nu exista."
 
@@ -281,7 +271,6 @@ msgstr "Cumpără"
 msgid "Can be backed up to mnemonic seed"
 msgstr "Poate fi făcut backup la cuvinte mnemonice"
 
-#: src/components/backup/BackupCreate.tsx:50
 #: src/components/core/components/ConfirmDialog/ConfirmDialog.tsx:86
 #: src/components/farm/FarmManageFarmingRewards.tsx:196
 #: src/components/fullNode/FullNodeAddConnection.tsx:89
@@ -321,20 +310,20 @@ msgid "Change Pool"
 msgstr ""
 
 #: src/electron/main.tsx:401
-msgid "Chat on KeyBase"
-msgstr "Discută pe KeyBase"
+msgid "Chat on Discord"
+msgstr "Discută pe Discord"
 
 #: src/electron/main.tsx:419
-msgid "Chia"
-msgstr "Chia"
+msgid "Mint"
+msgstr "Mint"
 
 #: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
-msgstr "Wiki Blockchain Chia"
+msgid "Mint Blockchain Wiki"
+msgstr "Wiki Blockchain Mint"
 
 #: src/components/wallet/standard/WalletStandard.tsx:649
-msgid "Chia Wallet"
-msgstr "Portofel Chia"
+msgid "Mint Wallet"
+msgstr "Portofel Mint"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -358,10 +347,6 @@ msgstr "Închide"
 msgid "Closing down node and server"
 msgstr "Oprește nodul și serverul"
 
-#: src/components/wallet/did/WalletDID.tsx:984
-msgid "Coin Name"
-msgstr ""
-
 #: src/components/trading/TradingOverview.jsx:366
 msgid "Coins:"
 msgstr "Monede:"
@@ -383,11 +368,11 @@ msgstr "Stringul culorii"
 msgid "Colour:"
 msgstr "Culoare:"
 
-#: src/components/wallet/create/WalletCreateList.tsx:34
+#: src/components/wallet/create/WalletCreate.jsx:118
 msgid "Coloured Coin"
 msgstr "Monedă colorată"
 
-#: src/components/wallet/create/WalletCreate.jsx:122
+#: src/components/wallet/create/WalletCreate.jsx:160
 msgid "Coloured Coin Options"
 msgstr "Opțiuni monede colorate"
 
@@ -472,32 +457,19 @@ msgstr "Copiază"
 msgid "Copy to Clipboard"
 msgstr "Copiază in Clipboard"
 
-#: src/components/backup/BackupCreate.tsx:58
+#: src/components/backup/BackupCreate.tsx:78
 #: src/components/plot/add/PlotAdd.tsx:177
 #: src/components/plotNFT/select/PlotNFTSelectPool.tsx:175
 #: src/components/wallet/create/createExistingColouredCoin.jsx:133
 #: src/components/wallet/create/createNewColouredCoin.jsx:142
 #: src/components/wallet/create/createRLAdmin.jsx:307
 #: src/components/wallet/create/createRLUser.jsx:99
-#: src/components/wallet/did/WalletDIDCreate.tsx:218
 msgid "Create"
 msgstr "Creează"
 
-#: src/components/wallet/did/WalletDID.tsx:967
-msgid "Create An Attestation Packet"
-msgstr ""
-
-#: src/components/wallet/create/WalletCreate.jsx:290
-#~ msgid "Create DID wallet"
-#~ msgstr "Creează portofel DID"
-
-#: src/components/wallet/did/WalletDIDCreate.tsx:110
-msgid "Create Distributed Identity Wallet"
-msgstr ""
-
-#: src/components/wallet/did/WalletDIDSelect.tsx:32
-msgid "Create New Wallet"
-msgstr ""
+#: src/components/wallet/create/WalletCreate.jsx:276
+msgid "Create DID wallet"
+msgstr "Creează portofel DID"
 
 #: src/components/trading/TradeManager.tsx:45
 msgid "Create Offer"
@@ -529,7 +501,7 @@ msgstr "Creează ofertă de schimb"
 msgid "Create Transaction"
 msgstr "Creează tranzacție"
 
-#: src/components/backup/BackupCreate.tsx:41
+#: src/components/backup/BackupCreate.tsx:63
 msgid "Create a Backup"
 msgstr "Creează un backup"
 
@@ -541,15 +513,15 @@ msgstr ""
 msgid "Create a new private key"
 msgstr "Creează o noua cheie privată"
 
-#: src/components/wallet/create/WalletCreate.jsx:186
+#: src/components/wallet/create/WalletCreate.jsx:224
 msgid "Create admin wallet"
 msgstr "Creează un portofel administrator"
 
-#: src/components/wallet/create/WalletCreate.jsx:132
+#: src/components/wallet/create/WalletCreate.jsx:170
 msgid "Create new coloured coin"
 msgstr "Creează o nouă monedă colorată"
 
-#: src/components/wallet/create/WalletCreate.jsx:192
+#: src/components/wallet/create/WalletCreate.jsx:230
 msgid "Create user wallet"
 msgstr "Creează un portofel utilizator"
 
@@ -557,7 +529,7 @@ msgstr "Creează un portofel utilizator"
 msgid "Create wallet for colour"
 msgstr "Creează portofel pentru culoare"
 
-#: src/components/wallet/create/WalletCreate.jsx:139
+#: src/components/wallet/create/WalletCreate.jsx:177
 msgid "Create wallet for existing colour"
 msgstr "Creează portofel pentru culoarea existentă"
 
@@ -628,10 +600,6 @@ msgstr "Decalaj"
 #: src/components/plotNFT/PlotNFTCard.tsx:122
 #: src/components/selectKey/SelectKey.tsx:67
 #: src/components/selectKey/SelectKey.tsx:109
-#: src/components/wallet/did/WalletDID.tsx:449
-#: src/components/wallet/did/WalletDID.tsx:862
-#: src/components/wallet/did/WalletDIDCreate.tsx:194
-#: src/components/wallet/did/WalletDIDRecovery.tsx:101
 #: src/components/wallet/standard/WalletStandard.tsx:630
 msgid "Delete"
 msgstr "Ștergere"
@@ -675,7 +643,7 @@ msgstr "Dezvoltator"
 msgid "Developer Tools"
 msgstr "Unelte Dezvoltator"
 
-#: src/components/block/Block.jsx:222
+#: src/components/block/Block.jsx:221
 #: src/components/fullNode/card/FullNodeCardDifficulty.tsx:20
 msgid "Difficulty"
 msgstr "Dificultate"
@@ -696,14 +664,13 @@ msgstr ""
 msgid "Disconnect"
 msgstr "Deconectare"
 
-#: src/components/wallet/create/WalletCreateList.tsx:28
-#: src/components/wallet/did/WalletDIDSelect.tsx:25
-msgid "Distributed Identity"
-msgstr ""
+#: src/components/wallet/create/WalletCreate.jsx:144
+#~ msgid "Distributed Identity"
+#~ msgstr ""
 
-#: src/components/wallet/create/WalletCreate.jsx:280
-#~ msgid "Distributed Identity Options"
-#~ msgstr "Opțiuni de identitate distribuita"
+#: src/components/wallet/create/WalletCreate.jsx:266
+msgid "Distributed Identity Options"
+msgstr "Opțiuni de identitate distribuita"
 
 #: src/components/farm/overview/FarmOverviewHero.tsx:52
 #: src/components/plot/overview/PlotOverviewHero.tsx:69
@@ -714,21 +681,14 @@ msgstr "Există parcele pe această mașină? <0> Adaugă un director cu parcele
 msgid "Does your machine support parallel plotting?"
 msgstr "Permite computerul tău parcelarea paralelă?"
 
-#: src/components/wallet/did/WalletDID.tsx:428
-msgid "Drag and drop attestation packet(s)"
-msgstr ""
-
 #: src/components/trading/ViewOffer.jsx:39
+#: src/components/wallet/create/recoverDIDWallet.js:294
 msgid "Drag and drop offer file"
 msgstr "Drag and drop fisierul cu oferta"
 
 #: src/components/backup/BackupRestore.tsx:173
 msgid "Drag and drop your backup file"
 msgstr "Drag and drop fisierul backup"
-
-#: src/components/wallet/did/WalletDIDRecovery.tsx:109
-msgid "Drag and drop your recovery backup file"
-msgstr ""
 
 #: src/electron/main.tsx:263
 msgid "Edit"
@@ -741,8 +701,8 @@ msgid "Edit Payout Instructions"
 msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:147
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Introduceti cele 24 de cuvinte din mnemmonic seed pe care le-ati salvat pentru a restaura portofelul dvs. Chia."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Mint wallet."
+msgstr "Introduceti cele 24 de cuvinte din mnemmonic seed pe care le-ati salvat pentru a restaura portofelul dvs. Mint."
 
 #: src/components/farm/FarmerStatus.tsx:21
 #: src/components/farm/FarmerStatus.tsx:22
@@ -755,8 +715,8 @@ msgid "Error"
 msgstr "Eroare"
 
 #: src/components/wallet/standard/WalletStandard.tsx:456
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Eroare: Nu se poate trimite chia la adresa colorată. Vă rugăm să introduceți o adresă chia."
+msgid "Error: Cannot send mint to coloured address. Please enter a mint address."
+msgstr "Eroare: Nu se poate trimite mint la adresa colorată. Vă rugăm să introduceți o adresă mint."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -798,7 +758,7 @@ msgstr "Ferma"
 msgid "Farmer Public Key"
 msgstr ""
 
-#: src/components/block/Block.jsx:268
+#: src/components/block/Block.jsx:267
 msgid "Farmer Puzzle Hash"
 msgstr "Farmer Puzzle Hash"
 
@@ -828,7 +788,7 @@ msgstr "Fermierul nu este conectat"
 msgid "Farmer is not running"
 msgstr "Fermierul nu este pornit"
 
-#: src/middleware/middleware_api.jsx:237
+#: src/middleware/middleware_api.jsx:275
 msgid "Farmer public key:"
 msgstr ""
 
@@ -866,7 +826,7 @@ msgid "Fee"
 msgstr "Taxe"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
-#~ msgid "Fee (TXCH)"
+#~ msgid "Fee (TXKM)"
 #~ msgstr ""
 
 #: src/components/wallet/coloured/WalletColoured.tsx:420
@@ -877,7 +837,7 @@ msgstr "Taxe"
 msgid "Fee ({currencyCode})"
 msgstr "Comision ({currencyCode})"
 
-#: src/components/block/Block.jsx:322
+#: src/components/block/Block.jsx:321
 msgid "Fees Amount"
 msgstr "Suma taxe"
 
@@ -893,7 +853,6 @@ msgstr "Filă"
 #: src/components/plot/PlotsFailed.tsx:14
 #: src/components/plot/PlotsNotFound.tsx:14
 #: src/components/plot/overview/PlotOverviewPlots.tsx:106
-#: src/components/wallet/did/WalletDID.tsx:975
 msgid "Filename"
 msgstr "Nume fisier"
 
@@ -959,11 +918,11 @@ msgstr ""
 msgid "Header Hash"
 msgstr "Hash-ul Antetului"
 
-#: src/components/block/Block.jsx:186
+#: src/components/block/Block.jsx:185
 msgid "Header hash"
 msgstr "Hash-ul Antetului"
 
-#: src/components/block/Block.jsx:202
+#: src/components/block/Block.jsx:201
 #: src/components/fullNode/FullNode.jsx:81
 #: src/components/fullNode/FullNodeConnections.tsx:79
 msgid "Height"
@@ -1071,15 +1030,15 @@ msgid "Join a Pool"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:44
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile."
+msgid "Join a pool and get consistent XKM farming rewards. The average returns are the same, but it is much less volatile."
 msgstr ""
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:59
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+msgid "Join a pool and get consistent XKM farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
 msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:133
-msgid "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
+msgid "Join a pool and get more consistent XKM farming rewards. Create a plot NFT and assign your new plots to a group."
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
@@ -1129,7 +1088,7 @@ msgstr ""
 msgid "Loading Plot NFTs"
 msgstr ""
 
-#: src/components/wallet/Wallets.tsx:117
+#: src/components/wallet/Wallets.tsx:111
 msgid "Loading list of wallets"
 msgstr ""
 
@@ -1189,10 +1148,6 @@ msgstr "Logare"
 msgid "Manage Farming Rewards"
 msgstr "Administrare Răsplată Cultivare"
 
-#: src/components/wallet/did/WalletDID.tsx:806
-msgid "Manage Recovery DIDs"
-msgstr ""
-
 #: src/components/farm/FarmManageFarmingRewards.tsx:119
 msgid "Manage Your Farming Rewards Target Addresses"
 msgstr "Administrează destinatarii răsplatei de cultivare"
@@ -1212,10 +1167,6 @@ msgstr "Minute"
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:116
 msgid "More memory slightly increases speed"
 msgstr "Mai multă memorie crește ușor viteza"
-
-#: src/components/wallet/did/WalletDID.tsx:537
-msgid "My DID Wallet"
-msgstr ""
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 msgid "My Pubkey"
@@ -1242,7 +1193,7 @@ msgstr "Adresă nouă"
 msgid "New Wallet"
 msgstr "Portofel nou"
 
-#: src/components/block/Block.jsx:351
+#: src/components/block/Block.jsx:350
 #: src/components/wallet/WalletAdd.tsx:95
 #: src/components/wallet/WalletImport.tsx:163
 msgid "Next"
@@ -1257,7 +1208,7 @@ msgstr "Apelativ"
 msgid "No"
 msgstr "Nu"
 
-#: src/middleware/middleware_api.jsx:263
+#: src/middleware/middleware_api.jsx:301
 msgid "No 24 word seed, since this key is imported."
 msgstr "Fără mnemonice de 24 de cuvinte, deoarece această cheie este importată."
 
@@ -1322,7 +1273,7 @@ msgid "Not found Plots"
 msgstr "Nu am găsit Parcele"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:184
-msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
+msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XKM reward for pooling plots."
 msgstr ""
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:118
@@ -1354,14 +1305,6 @@ msgstr "Oferte Create"
 #: src/components/wallet/standard/WalletStandard.tsx:485
 msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
 msgstr ""
-
-#: src/components/wallet/did/WalletDIDRecovery.tsx:34
-msgid "Only one backup file is allowed."
-msgstr ""
-
-#: src/components/wallet/create/recoverDIDWallet.js:156
-#~ msgid "Only one backup file is allowed. To add a new backup file, please delete any previously uploaded files and try again."
-#~ msgstr ""
 
 #: src/components/wallet/WalletHistory.tsx:23
 msgid "Outgoing"
@@ -1416,41 +1359,15 @@ msgstr "Te rog adaugă o pereche de schimb"
 msgid "Please enter 0 fee. Positive fees not supported yet for RL."
 msgstr "Te rog folosește comision 0. Comisioanele nu sunt suportate în acest moment pentru TL."
 
-#: src/components/wallet/did/WalletDID.tsx:924
-msgid "Please enter a coin"
-msgstr ""
-
-#: src/components/wallet/did/WalletDID.tsx:526
-#: src/components/wallet/did/WalletDID.tsx:914
-msgid "Please enter a filename"
-msgstr ""
-
-#: src/components/wallet/did/WalletDID.tsx:934
-msgid "Please enter a pubkey"
-msgstr ""
-
-#: src/components/wallet/did/WalletDID.tsx:944
-msgid "Please enter a puzzlehash"
-msgstr ""
-
 #: src/components/wallet/create/createRLAdmin.jsx:140
 msgid "Please enter a valid initial coin amount"
 msgstr "Te rog să introduci o valoare monetară inițială validă"
-
-#: src/components/wallet/did/WalletDID.tsx:777
-#: src/components/wallet/did/WalletDIDCreate.tsx:76
-msgid "Please enter a valid integer of 0 or greater for the number of Backup IDs needed for recovery."
-msgstr ""
 
 #: src/components/wallet/create/createNewColouredCoin.jsx:69
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:639
 #: src/components/wallet/standard/WalletStandard.tsx:432
 msgid "Please enter a valid numeric amount"
 msgstr "Te rog să introduci o valoare numerică validă"
-
-#: src/components/wallet/did/WalletDIDCreate.tsx:50
-msgid "Please enter a valid numeric amount."
-msgstr ""
 
 #: src/components/wallet/create/createExistingColouredCoin.jsx:70
 #: src/components/wallet/create/createNewColouredCoin.jsx:79
@@ -1481,10 +1398,6 @@ msgstr "Te rog să finalizezi sincronizarea înainte de a crea o tranzacție"
 msgid "Please select amount"
 msgstr "Te rog selectează o sumă"
 
-#: src/components/wallet/did/WalletDIDRecovery.tsx:55
-msgid "Please select backup file first"
-msgstr ""
-
 #: src/components/trading/CreateOffer.jsx:76
 msgid "Please select buy or sell"
 msgstr "Te rog selectează Cumpărare sau Vânzare"
@@ -1511,7 +1424,6 @@ msgstr "Te rog să specifici directorul temporar"
 msgid "Please wait for synchronization"
 msgstr ""
 
-#: src/components/wallet/did/WalletDIDRecovery.tsx:64
 #: src/hooks/useJoinPool.tsx:27
 msgid "Please wait for wallet synchronization"
 msgstr ""
@@ -1525,7 +1437,7 @@ msgstr "Parcelă"
 msgid "Plot Count"
 msgstr "Număr Parcele"
 
-#: src/components/block/Block.jsx:300
+#: src/components/block/Block.jsx:299
 msgid "Plot Id"
 msgstr "Id Parcelă"
 
@@ -1546,7 +1458,7 @@ msgstr ""
 #~ msgid "Plot Name"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:260
+#: src/components/block/Block.jsx:259
 msgid "Plot Public Key"
 msgstr "Cheie Publică Parcelă"
 
@@ -1583,8 +1495,8 @@ msgid "Plots Passed Filter"
 msgstr "Parcele Filtrate"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "Parcelele reprezintă spațiu alocat pe hard-disc, folosite pentru a cultiva și câștiga Chia. <0>Află mai multe</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Mint. <0>Learn more</0>"
+msgstr "Parcelele reprezintă spațiu alocat pe hard-disc, folosite pentru a cultiva și câștiga Mint. <0>Află mai multe</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 msgid "Plotting"
@@ -1638,12 +1550,12 @@ msgstr ""
 msgid "Pool Payout Instructions"
 msgstr ""
 
-#: src/components/block/Block.jsx:264
+#: src/components/block/Block.jsx:263
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:222
 msgid "Pool Public Key"
 msgstr "Cheie Publică Asociație"
 
-#: src/components/block/Block.jsx:284
+#: src/components/block/Block.jsx:283
 msgid "Pool Puzzle Hash"
 msgstr "Hash Enigmă Asociație"
 
@@ -1663,7 +1575,7 @@ msgstr ""
 msgid "Pool Reward Address must not be empty."
 msgstr ""
 
-#: src/components/block/Block.jsx:314
+#: src/components/block/Block.jsx:313
 msgid "Pool Reward Amount"
 msgstr "Sumă Răsplată Asociație"
 
@@ -1675,7 +1587,7 @@ msgstr ""
 msgid "Pool does not provide target_puzzle_hash."
 msgstr ""
 
-#: src/middleware/middleware_api.jsx:245
+#: src/middleware/middleware_api.jsx:283
 msgid "Pool public key:"
 msgstr ""
 
@@ -1706,7 +1618,7 @@ msgstr ""
 msgid "Preparing standard wallet"
 msgstr ""
 
-#: src/components/block/Block.jsx:348
+#: src/components/block/Block.jsx:347
 msgid "Previous"
 msgstr "Anterior"
 
@@ -1714,7 +1626,7 @@ msgstr "Anterior"
 #~ msgid "Previous Block Hash"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:216
+#: src/components/block/Block.jsx:215
 msgid "Previous Header Hash"
 msgstr "Hash Antet Anterior"
 
@@ -1726,15 +1638,15 @@ msgstr "Hash Antet Anterior"
 msgid "Private key with public fingerprint {fingerprint}"
 msgstr "Cheie privată având amprenta cheii publice {fingerprint}"
 
-#: src/middleware/middleware_api.jsx:211
+#: src/middleware/middleware_api.jsx:249
 msgid "Private key {0}"
 msgstr "Cheia privată {0}"
 
-#: src/middleware/middleware_api.jsx:221
+#: src/middleware/middleware_api.jsx:259
 msgid "Private key:"
 msgstr "Cheia privată:"
 
-#: src/components/block/Block.jsx:252
+#: src/components/block/Block.jsx:251
 msgid "Proof of Space Size"
 msgstr "Mărimea 'Proof of Space'"
 
@@ -1747,17 +1659,12 @@ msgid "Protocol Version"
 msgstr ""
 
 #: src/components/wallet/create/createRLAdmin.jsx:297
-#: src/components/wallet/did/WalletDID.tsx:993
 msgid "Pubkey"
 msgstr "Pubkey"
 
-#: src/middleware/middleware_api.jsx:229
+#: src/middleware/middleware_api.jsx:267
 msgid "Public key:"
 msgstr "Cheie publică:"
-
-#: src/components/wallet/did/WalletDID.tsx:1002
-msgid "Puzzlehash"
-msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:162
 msgid "Queue Name"
@@ -1787,7 +1694,7 @@ msgstr "Utilizarea maximă de RAM"
 #~ msgid "RLListItems.title"
 #~ msgstr ""
 
-#: src/components/wallet/create/WalletCreateList.tsx:42
+#: src/components/wallet/create/WalletCreate.jsx:124
 msgid "Rate Limited"
 msgstr "Tarif Limitat (TL)"
 
@@ -1796,7 +1703,7 @@ msgstr "Tarif Limitat (TL)"
 msgid "Rate Limited Info"
 msgstr "Info Tarif Limitat"
 
-#: src/components/wallet/create/WalletCreate.jsx:176
+#: src/components/wallet/create/WalletCreate.jsx:214
 msgid "Rate Limited Options"
 msgstr "Opțiuni Tarif Limitat"
 
@@ -1809,27 +1716,9 @@ msgstr "Setare portofel limitat pentru utilizatori"
 msgid "Receive Address"
 msgstr "Adresă de primire"
 
-#: src/components/wallet/did/WalletDID.tsx:464
-#: src/components/wallet/did/WalletDIDRecovery.tsx:124
-msgid "Recover"
-msgstr ""
-
-#: src/components/wallet/did/WalletDID.tsx:340
-#: src/components/wallet/did/WalletDID.tsx:480
-msgid "Recover DID Wallet"
-msgstr ""
-
-#: src/components/wallet/create/WalletCreate.jsx:296
-#~ msgid "Recover DID wallet"
-#~ msgstr "Recuperare portofel DID"
-
-#: src/components/wallet/did/WalletDIDRecovery.tsx:84
-msgid "Recover Distributed Identity Wallet"
-msgstr ""
-
-#: src/components/wallet/did/WalletDIDSelect.tsx:39
-msgid "Recover Wallet"
-msgstr ""
+#: src/components/wallet/create/WalletCreate.jsx:282
+msgid "Recover DID wallet"
+msgstr "Recuperare portofel DID"
 
 #: src/components/plot/PlotHeader.tsx:78
 #: src/components/plot/overview/PlotOverviewHero.tsx:62
@@ -1895,7 +1784,7 @@ msgstr "Locația celui de-al doilea folder temporar"
 msgid "See private key"
 msgstr "Vezi cheia privată"
 
-#: src/middleware/middleware_api.jsx:255
+#: src/middleware/middleware_api.jsx:293
 msgid "Seed:"
 msgstr "Seed:"
 
@@ -1919,7 +1808,7 @@ msgstr "Selectează oferta"
 msgid "Select Temporary Directory"
 msgstr "Selectează directorul temporar"
 
-#: src/components/wallet/create/WalletCreateList.tsx:21
+#: src/components/wallet/create/WalletCreate.jsx:108
 msgid "Select Wallet Type"
 msgstr "Selectează tipul portofelului"
 
@@ -1949,17 +1838,13 @@ msgstr ""
 msgid "Selected"
 msgstr "Selectat"
 
-#: src/components/wallet/did/WalletDIDRecovery.tsx:91
-msgid "Selected recovery file:"
-msgstr ""
-
 #: src/components/plotNFT/PlotNFTExternalState.tsx:23
 #: src/components/plotNFT/PlotNFTState.tsx:57
 msgid "Self Pooling"
 msgstr ""
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:105
-msgid "Self pool. When you win a block you will earn XCH rewards."
+msgid "Self pool. When you win a block you will earn XKM rewards."
 msgstr ""
 
 #: src/components/trading/CreateOffer.jsx:164
@@ -2012,7 +1897,7 @@ msgid "Skips adding a final directory to harvester for farming"
 msgstr "Sari peste adăugarea unui director final la harvester pentru farmare"
 
 #: src/components/pool/PoolHero.tsx:26
-msgid "Smooth out your XCH farming rewards by joining a pool."
+msgid "Smooth out your XKM farming rewards by joining a pool."
 msgstr ""
 
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:60
@@ -2048,8 +1933,8 @@ msgstr "Lungimea intervalului pentru cheltuieli (număr de blocuri)"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Limită de cheltuieli (Chia per interval): {0}"
+msgid "Spending Limit (mint per interval): {0}"
+msgstr "Limită de cheltuieli (Mint per interval): {0}"
 
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
@@ -2064,7 +1949,7 @@ msgstr "Stare"
 #: src/components/trading/TradingOverview.jsx:128
 #: src/components/wallet/WalletHistory.tsx:55
 #: src/components/wallet/WalletStatusCard.tsx:22
-#: src/components/wallet/Wallets.tsx:50
+#: src/components/wallet/Wallets.tsx:52
 msgid "Status"
 msgstr "Status"
 
@@ -2097,10 +1982,9 @@ msgstr "Status:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Mint blockchain"
+#~ msgstr "Sub Block at height {0} in the Mint blockchain"
 
-#: src/components/wallet/did/WalletDID.tsx:886
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
 msgid "Submit"
 msgstr "Trimite"
@@ -2126,23 +2010,23 @@ msgstr ""
 #~ msgstr "Syncing {progress}/{tip}"
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:15
-#~ msgid "TXCH Block Rewards"
+#~ msgid "TXKM Block Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardCoinbaseRewards.tsx:12
-#~ msgid "TXCH Farming Rewards"
+#~ msgid "TXKM Farming Rewards"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardFeesReward.tsx:12
-#~ msgid "TXCH Fees Collected"
+#~ msgid "TXKM Fees Collected"
 #~ msgstr ""
 
 #: src/components/farm/card/FarmCardUserFees.tsx:12
-#~ msgid "TXCH User Fees"
-#~ msgstr "TXCH User Fees"
+#~ msgid "TXKM User Fees"
+#~ msgstr "TXKM User Fees"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:15
-#~ msgid "TXCH User Transaction Fees"
+#~ msgid "TXKM User Transaction Fees"
 #~ msgstr ""
 
 #: src/components/pool/PoolInfo.tsx:37
@@ -2178,11 +2062,6 @@ msgstr "Nodul nu este sincronizat"
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 msgstr "Nodul se sincronizează, ceea ce înseamnă că descarcă blocuri din alte noduri, pentru a ajunge la cel mai recent bloc din lanț"
 
-#: src/components/wallet/did/WalletDID.tsx:790
-#: src/components/wallet/did/WalletDIDCreate.tsx:89
-msgid "The number of Backup IDs needed for recovery cannot exceed the number of Backup IDs added."
-msgstr ""
-
 #: src/hooks/usePoolInfo.ts:57
 msgid "The pool URL \"{normalizedUrl}\" is not working. Is it pool? Error: {0}"
 msgstr ""
@@ -2207,24 +2086,24 @@ msgstr ""
 msgid "The pool switching operation was cancelled, please try again by changing pool, or self pooling"
 msgstr ""
 
-#: src/components/block/Block.jsx:303
+#: src/components/block/Block.jsx:302
 msgid "The seed used to create the plot. This depends on the pool pk and plot pk."
 msgstr "'Sămânța' folosită pentru a creea o parcelă. Aceasta depinde de pk-ul asociației si pk-ul parcelei."
 
-#: src/components/block/Block.jsx:229
+#: src/components/block/Block.jsx:228
 msgid "The total number of VDF (verifiable delay function) or proof of time iterations on the whole chain up to this sub block."
 msgstr "Numărul total de VDF (funcție de întârziere verificabilă) sau dovezi ale iterațiilor de timp pe întregul lanț până la acest bloc secundar."
 
-#: src/components/block/Block.jsx:245
+#: src/components/block/Block.jsx:244
 msgid "The total number of VDF (verifiable delay function) or proof of time iterations on this block."
 msgstr "Numărul total de VDF (funcție de întârziere verificabilă) sau dovezi ale iterațiilor de timp pe acest bloc."
 
-#: src/components/block/Block.jsx:325
+#: src/components/block/Block.jsx:324
 msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "Taxele totale pentru tranzacții din acest bloc. Câștigate de fermier."
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:102
-msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XCH address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XKM address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
 msgstr ""
 
 #: src/components/plot/PlotsFailed.tsx:40
@@ -2247,8 +2126,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Aceasta facilitate este disponibila doar din GUI."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Aceasta este suma de Chia pe care o puteți utiliza în prezent pentru a efectua tranzacții. Nu include recompense în așteptare, tranzacții în așteptare și Chia pe care tocmai le-ați cheltuit, dar care nu se află încă în blockchain."
+msgid "This is the amount of Mint that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Mint that you have just spent but is not yet in the blockchain."
+msgstr "Aceasta este suma de Mint pe care o puteți utiliza în prezent pentru a efectua tranzacții. Nu include recompense în așteptare, tranzacții în așteptare și Mint pe care tocmai le-ați cheltuit, dar care nu se află încă în blockchain."
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2262,13 +2141,13 @@ msgstr "Aceasta este suma tranzacțiilor în așteptare primite și expediate (n
 msgid "This is the time of the latest peak sub block."
 msgstr "Acesta este momentul celui mai recent subbloc peak."
 
-#: src/components/block/Block.jsx:195
+#: src/components/block/Block.jsx:194
 msgid "This is the time the block was created by the farmer, which is before it is finalized with a proof of time"
 msgstr "Acesta este momentul în care blocul a fost creat de fermier, care este înainte de a fi finalizat cu o 'proof of time'"
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Aceasta este cantitatea totală de chia din blockchain la subblocul peak curent care este controlat de cheile dvs. private. Include recompense înghețate, dar nu tranzacții în așteptare de intrare și de ieșire."
+msgid "This is the total amount of mint in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "Aceasta este cantitatea totală de mint din blockchain la subblocul peak curent care este controlat de cheile dvs. private. Include recompense înghețate, dar nu tranzacții în așteptare de intrare și de ieșire."
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2313,7 +2192,7 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Această tranzacție a fost inclusă pe blockchain la această înălțime a blocului"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+msgid "This version of Mint is no longer compatible with the blockchain and can not safely farm."
 msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:92
@@ -2324,7 +2203,7 @@ msgstr "Creata in timp"
 #~ msgid "Time this trade was created at this time"
 #~ msgstr ""
 
-#: src/components/block/Block.jsx:190
+#: src/components/block/Block.jsx:189
 msgid "Timestamp"
 msgstr "Timestamp-ul"
 
@@ -2338,8 +2217,8 @@ msgstr "Catre"
 msgid "Total Balance"
 msgstr "Sold Total"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalMintFarmed.tsx:15
+#~ msgid "Total Mint Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -2358,7 +2237,7 @@ msgstr "Dimensiunea totală a parcelelor:"
 msgid "Total Size of Plots"
 msgstr "Dimensiunea totală a parcelelor"
 
-#: src/components/block/Block.jsx:226
+#: src/components/block/Block.jsx:225
 msgid "Total VDF Iterations"
 msgstr "Totalul iteratiilor VDF"
 
@@ -2398,7 +2277,7 @@ msgstr "Tranzactionare"
 msgid "Trading History"
 msgstr "Istoria tranzactiilor"
 
-#: src/components/block/Block.jsx:310
+#: src/components/block/Block.jsx:309
 msgid "Transactions Filter Hash"
 msgstr "Filtru Hash Tranzacții"
 
@@ -2506,16 +2385,12 @@ msgstr ""
 msgid "Wallet Status:"
 msgstr ""
 
-#: src/components/wallet/did/WalletDID.tsx:1118
-msgid "Wallet does not exists"
-msgstr ""
-
 #: src/components/wallet/Wallets.tsx:34
 #~ msgid "WalletItem.ccWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#~ msgid "WalletItem.mintWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -2539,7 +2414,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:45
-#: src/components/wallet/Wallets.tsx:118
+#: src/components/wallet/Wallets.tsx:112
 msgid "Wallets"
 msgstr "Portofele"
 
@@ -2552,8 +2427,8 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Vrei să câștigi mai multe Chia? Adaugă mai multe parcele la ferma ta."
+msgid "Want to earn more Mint? Add more plots to your farm."
+msgstr "Vrei să câștigi mai multe Mint? Adaugă mai multe parcele la ferma ta."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"
@@ -2571,17 +2446,17 @@ msgstr ""
 msgid "Warning: This key is used for your pool rewards address. By deleting this key you may lose access to any future pool rewards"
 msgstr ""
 
-#: src/components/block/Block.jsx:206
+#: src/components/block/Block.jsx:205
 msgid "Weight"
 msgstr "Greutate"
 
-#: src/components/block/Block.jsx:209
+#: src/components/block/Block.jsx:208
 msgid "Weight is the total added difficulty of all sub blocks up to and including this one"
 msgstr "Greutatea este dificultatea totala adaugata a tuturor subblocurilor până la acesta inclusiv"
 
 #: src/components/selectKey/SelectKey.tsx:141
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Bine ati venit la Chia. Va rugam logati-va cu o cheie existenta, sau creati o noua cheie."
+msgid "Welcome to Mint. Please log in with an existing key, or create a new key."
+msgstr "Bine ati venit la Mint. Va rugam logati-va cu o cheie existenta, sau creati o noua cheie."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2651,8 +2526,8 @@ msgid "You need to claim your rewards first"
 msgstr ""
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Mint application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Mint application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 msgid "You need {currencyCode} to join a pool."
@@ -2664,10 +2539,6 @@ msgstr ""
 
 #: src/hooks/useAbsorbRewards.tsx:49
 msgid "You will recieve <0/> to {address}"
-msgstr ""
-
-#: src/components/wallet/did/WalletDID.tsx:328
-msgid "Your DID requires at least {dids_num_req} attestation file{0} for recovery. Please upload additional files."
 msgstr ""
 
 #: src/components/farm/overview/FarmOverview.tsx:37
@@ -2695,16 +2566,16 @@ msgid "[Error 22] File not found. Most likely one of the plot folders in your co
 msgstr ""
 
 #: src/components/wallet/WalletStatusCard.tsx:41
-#: src/components/wallet/Wallets.tsx:75
+#: src/components/wallet/Wallets.tsx:77
 msgid "connections:"
 msgstr "conexiuni:"
 
 #: src/components/wallet/WalletStatusCard.tsx:33
-#: src/components/wallet/Wallets.tsx:67
+#: src/components/wallet/Wallets.tsx:69
 msgid "height:"
 msgstr "inaltimea:"
 
-#: src/components/wallet/Wallets.tsx:61
+#: src/components/wallet/Wallets.tsx:63
 msgid "not synced"
 msgstr "nesincronizat"
 
@@ -2713,17 +2584,17 @@ msgid "p2_singleton_puzzle_hash is not defined"
 msgstr ""
 
 #: src/components/wallet/WalletStatusCard.tsx:27
-#: src/components/wallet/Wallets.tsx:55
+#: src/components/wallet/Wallets.tsx:57
 msgid "status:"
 msgstr "status:"
 
 #: src/components/wallet/WalletStatusCard.tsx:29
-#: src/components/wallet/Wallets.tsx:60
+#: src/components/wallet/Wallets.tsx:62
 msgid "synced"
 msgstr "sincronizat"
 
 #: src/components/wallet/WalletStatusCard.tsx:29
-#: src/components/wallet/Wallets.tsx:59
+#: src/components/wallet/Wallets.tsx:61
 msgid "syncing"
 msgstr "se sincronizeaza"
 
@@ -2743,14 +2614,14 @@ msgstr ""
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} Răsplată Blocuri"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Total Chia cultivat"
+#: src/components/farm/card/FarmCardTotalMintFarmed.tsx:29
+msgid "{currencyCode} Total Mint Farmed"
+msgstr "{currencyCode} Total Mint cultivat"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"
 msgstr "{currencyCode} Comisioane de tranzacție"
 
-#: src/components/core/components/Amount/Amount.tsx:82
+#: src/components/core/components/Amount/Amount.tsx:80
 msgid "{mojo, plural, one {mojo} other {mojos}}"
 msgstr ""
