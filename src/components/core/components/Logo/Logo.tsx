@@ -1,9 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Box, BoxProps } from '@material-ui/core';
-import { Chia } from '@chia/icons';
+import { Mint } from '@mint/icons';
+import { Link } from '@mint/core';
 
-const StyledChia = styled(Chia)`
+const StyledMint = styled(Mint)`
   max-width: 100%;
   width: auto;
   height: auto;
@@ -12,7 +13,12 @@ const StyledChia = styled(Chia)`
 export default function Logo(props: BoxProps) {
   return (
     <Box {...props}>
-      <StyledChia />
+      <Link
+        target="_blank"
+        href={'https://mintnet.work'}
+      >
+        <StyledMint />
+      </Link>
     </Box>
   );
 }

@@ -1,8 +1,8 @@
 {
-    "name": "chia-blockchain",
-    "author": "Chia Network <hello@chia.net> (https://chia.net/)",
-    "description": "GUI for Chia Blockchain",
-    "productName": "Chia Blockchain",
+    "name": "mint-blockchain",
+    "author": "MintNetwork <hello@mintnet.work> (https://mintnet.work/)",
+    "description": "GUI for Mint Blockchain",
+    "productName": "Mint Blockchain",
     "private": true,
     "homepage": "./",
     "main": "build/electron/main.js",
@@ -168,5 +168,5 @@
             "last 1 safari version"
         ]
     },
-    "version": "1.2.6-dev67"
+    "version": "0.2.11-dev0"
 }
